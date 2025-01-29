@@ -4,237 +4,138 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publication</title>
-
+    <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
 <style>
-<body {
+    
+body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #000000;
-    color: #fff;
-}
-body{
-    margin: 0%;
-    padding: 0%;
-}
-header{
-    background-color: #000000;
-    color: #ffffff;
-    display: flex;
-}
-.ul-n{
-    list-style: none;
-    display: flex;
-    margin-left: 20px;
-    padding-top: 20px;
-}
-.a-n{
-    text-decoration: none;
-    color: #ffffff;
-    margin-left:40px ;
-}
-.nav{
-    margin-left:20px ;
-    border-radius: 40px;
-    width: 150px;
-    padding:15px ;
-}
-.web-logo{
-    margin-left: 90px;
-    padding:15px ;
-}
-li{
-    padding-top: 20px ;
-}
-
-.footer {
-    background-color: #0F0F0F;
-    color: white;
-    padding: 40px 0;
-    margin-top: 60px;
-
-}
-
-.footer-wrapper {
+    padding: 0;
+    background: black;
+    font-family: Arial, sans-serif;
     width: 100%;
-    margin: auto;
+}
+.navbar {
+    
     display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: black;
 }
-
-.footer-section {
-    
-    text-align: left;
-    padding-left: 10px;
-
+.logo img {
+    padding-top: 10px;
+    height: 60px;
 }
-
-.logo {
-    max-width: 180px;
-    margin-bottom: 15px;
-}
-
-.footer-section h3 {
-    font-size: 18px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.footer-section p {
-    font-size: 14px;
-    line-height: 1.6;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.footer-section ul {
+.nav-links {
     list-style: none;
-    padding: 0%;
-    color:rgba(255, 255, 255, 0.7) ;
-    
-}
-
-.footer-section ul li {
-    margin: 5px 0;
-    color:rgba(255, 255, 255, 0.7) ;
-
-}
-
-.footer-section ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    transition: 0.3s;
-    color:rgba(255, 255, 255, 0.7) ;
-    
-}
-
-.footer-section ul li a:hover {
-    color: red;
-    
-    
-}
-
-.links a {
-    text-decoration: none;
-    color: white;
-    /* margin-right: 0px; */
-    color:rgba(255, 255, 255, 0.7) ;
-    
-}
-
-.links a:hover {
-    color: red;
-}
-
-.social-icons a {
-    display: inline-block;
-    background: red;
-    color: white;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    /* text-align: center; */
-    border-radius: 50%;
-    margin-right: 10px;
-    font-size: 18px;
-}
-
-.app-buttons img {
-    width: 140px;
-    margin-top: 10px;
-}
-
-@media (max-width: 900px) {
-    .container {
-        flex-direction: column;
-        text-align: center;
-    }
-    
-    .footer-section {
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .social-icons {
-        justify-content: center;
-    }
-}
-
-.container{
     display: flex;
-    justify-content: center;
+    gap: 20px;
 }
-
-
+.nav-links li {
+    display: inline;
+    color: #FFFFFF;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.buttons a{
+    color: #FFFFFF;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
 .franchise {
-    background-color: #0f0f0f;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.order {
+    background: red;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
 }
 
-.img-s {
-    justify-content: center;
-    position: absolute;
-}
-.carausel{
-    width: 100%;
-}
-.children{
-    text-align: center;
-    width: 20%;
-    padding: 1%;
-}
-.children-fran{
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-}
-.container-fran {
-    display: flex;
+.container-p {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 50px;
 }
 
-@font-face {
-    font-family: 'futurak';
-    src: url('futurak.ttf');
-}
 .card-p {
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
-  }
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+}
 
-  .card-p img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
+.card-p img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 5px;
+}
 
-  .card-p:hover img {
-    transform: scale(1.2);
-  }
-  .container-p{
-    justify-content: center;
-  }
-  .card-p{
-    margin-left: 80px;
-    height: 700px;
-    width: 700px;
-  }
+.bor-2 {
+  border: 2px solid white;
+}
+
+.center {
+  text-align: center;
+  font-weight: bold;
+}
+
+.gray {
+  color: gray;
+}
+
+h1, h3 {
+  font-weight: bold;
+}
   </style>
 <br>
 <br>
-<br>
+<header>
+       
+    <nav class="navbar">
+        <div class="logo">
+            <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp"
+            alt="http://placehold.it/150x50?text=Logo" alt="Salt'n Pepper Restaurant">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="Publication.html">Publications</a></li>
+        </ul>
+        <div class="buttons">
+            <button class="franchise"><a href="franchise.html">Get a Franchise</a></button>
+            <button class="order">Order Online →</button>
+        </div>
+    </nav>
+</header>
 <div class="container-p d-flex">
 <div class="card-p bor-2 ">
-    <img src="22fa9f8e-64ff-4eb4-ac4c-19a378cf20af.webp" alt="Card Image">
+    <img src="book 1.webp" alt="Card Image">
   </div>
 <div class="card-p bor-2 ">
-    <img src="216c6184-1ad5-43bd-88c3-62c42dea8486.webp" alt="Card Image">
+    <img src="book 2.webp" alt="Card Image">
   </div>
   </div>
   <br>
@@ -264,60 +165,62 @@ li{
   <br>
   <br>
   <br>
-  <!-- footer -->
-  <footer class="footer">
-    <div class="footer-wrapper">
-        <div class="footer-section" style="max-width: 340px;">
-            <img  src="https://static.tossdown.com/images/da52b9b3-ba03-4d41-bc8f-ac9e7d6a598b.webp" alt="Logo" class="logo">
-            <p style="color:rgba(255, 255, 255, 0.7) ;">
-                The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.
-            </p>
-            <p class="links">
-                <a style="color:rgba(255, 255, 255, 0.7) ;" href="#">Terms & conditions</a>  <a style="color:rgba(255, 255, 255, 0.7) ;" href="#">Privacy policy</a>
-            </p>
-        </div>
+ 
 
-        <div class="footer-section" style="width: 150px;">
-            <h3>Site Links</h3>
-            <ul    >
-                <li style="margin-bottom: 20px;"><a href="#">Home</a></li>
-                <li style="margin-bottom: 20px;"><a href="#">About Us</a></li>
-                <li style="margin-bottom: 20px;"><a href="#">Publications</a></li>
-                <li style="margin-bottom: 20px;"><a href="#">Get a Franchise</a></li>
-                <li style="margin-bottom: 20px;"><a href="#">Feedback</a></li>
-            </ul>
-        </div>
-
-        <div class="footer-section" style="max-width: 240px;">
-            <h3>Contact Us</h3>
-            <p style="color:rgba(255, 255, 255, 0.7) ;"><strong>Head office Address</strong><br>
-                Foodconsults (Pvt) Ltd <br>
-                23-Usman Block, New Garden Town, Lahore, Pakistan</p>
-            
-            <p style="margin-bottom: 10px;"><strong>Head office number</strong><br>
-                <p style="margin-bottom: 15px; color:rgba(255, 255, 255, 0.7);">+92 42 358 509 31</p>
-                <p style="color:rgba(255, 255, 255, 0.7);">+92 42 358 509 30</p></p>
-            <p style="margin-bottom: 10px;"><strong>Email Address</strong><br>
-                <a style="color:rgba(255, 255, 255, 0.7)" href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a></p>
-
-            <p style="margin-bottom: 10px;"><strong>Free delivery number</strong><br>
-                <p style="margin-bottom: 10px;color:rgba(255, 255, 255, 0.7);">+92 42 111 100 678</p>
-                <p style="color:rgba(255, 255, 255, 0.7);">+92 03 111 444 610</p></p>
+             <!-- footer -->
+     <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="footer-section" style="max-width: 340px;">
+                <img  src="https://static.tossdown.com/images/da52b9b3-ba03-4d41-bc8f-ac9e7d6a598b.webp" alt="Logo" class="logo">
+                <p style="color:rgba(255, 255, 255, 0.7) ;">
+                    The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.
+                </p>
+                <p class="links">
+                    <a style="color:rgba(255, 255, 255, 0.7) ;" href="#">Terms & conditions</a>  <a style="color:rgba(255, 255, 255, 0.7) ;" href="#">Privacy policy</a>
+                </p>
+            </div>
+    
+            <div class="footer-section" style="width: 150px;">
+                <h3>Site Links</h3>
+                <ul    >
+                    <li style="margin-bottom: 20px;"><a href="#">Home</a></li>
+                    <li style="margin-bottom: 20px;"><a href="#">About Us</a></li>
+                    <li style="margin-bottom: 20px;"><a href="#">Publications</a></li>
+                    <li style="margin-bottom: 20px;"><a href="#">Get a Franchise</a></li>
+                    <li style="margin-bottom: 20px;"><a href="#">Feedback</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-section" style="max-width: 240px;">
+                <h3>Contact Us</h3>
+                <p style="color:rgba(255, 255, 255, 0.7) ; "><strong>Head office Address</strong><br>
+                    Foodconsults (Pvt) Ltd <br>
+                    23-Usman Block, New Garden Town, Lahore, Pakistan</p>
                 
-        </div>
-
-        <div class="footer-section">
-            <h3>Follow Us</h3>
-            <div class="social-icons">
-                <a href="#" aria-label="Facebook" style="padding-left:9px "><i class="fa-brands fa-facebook"></i></i></a>
-                <a href="#" aria-label="Instagram" style="padding-left:9px "><i class="fa fa-instagram"></i></a>
-                <a href="#" aria-label="Twitter" style="padding-left:9px "><i class="fa fa-twitter"></i></a>
+                <p style="margin-bottom: 10px;"><strong>Head office number</strong><br>
+                    <p style="margin-bottom: 15px; color:rgba(255, 255, 255, 0.7);">+92 42 358 509 31</p>
+                    <p style="color:rgba(255, 255, 255, 0.7);">+92 42 358 509 30</p></p>
+                <p style="margin-bottom: 10px;"><strong>Email Address</strong><br>
+                    <a style="color:rgba(255, 255, 255, 0.7)" href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a></p>
+    
+                <p style="margin-bottom: 10px;"><strong>Free delivery number</strong><br>
+                    <p style="margin-bottom: 10px;color:rgba(255, 255, 255, 0.7);">+92 42 111 100 678</p>
+                    <p style="color:rgba(255, 255, 255, 0.7);">+92 03 111 444 610</p></p>
+                    
             </div>
-            <div class="app-buttons">
-                <a href="#"><img src="app store.webp" alt="App Store"></a>
-                <a href="#"><img src="Google.webp" alt="Google Play"></a>
+    
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook" style="padding-left:9px "><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="#" aria-label="Instagram" style="padding-left:9px "><i class="fa fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter" style="padding-left:9px "><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="app-buttons">
+                    <a href="#"><img src="app store.webp" alt="App Store"></a>
+                    <a href="#"><img src="Google.webp" alt="Google Play"></a>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 <script src="https://kit.fontawesome.com/a9b6f95a5b.js" crossorigin="anonymous"></script>
