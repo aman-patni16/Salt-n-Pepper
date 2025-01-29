@@ -1,0 +1,369 @@
+body {
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    background: black;
+}
+.logo img {
+    padding-top: 10px;
+    height: 60px;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-links li {
+    display: inline;
+    color: #FFFFFF;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+.buttons a{
+    color: #FFFFFF;
+}
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+.franchise {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.order {
+    background: red;
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+ .background{
+    background-color: #000000;
+    padding-top: 40px;
+    padding-bottom: 60px;
+ } 
+.text{
+    color: #ffffff;
+    text-align: center;
+}
+.img1{
+    background-color: #ffffff;
+}
+.img2{
+    background-color: #ffffff;
+}
+.img3{
+    background-color: #ffffff;
+}
+.font{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    color: #ffffff;
+}
+.container{
+    background-color:#0F0F0F;
+    padding-top: 50px;  
+    /* padding-bottom: 50px; */
+}
+.children{
+    text-align: center;
+    color: #ffffff;
+}
+.color{
+    color: #ff0000;
+    padding-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    letter-spacing: 8px;
+    font-size: medium;
+}
+.color2{
+    color: #ffffff;
+      
+}
+.color3{
+    color: #ffffff;
+      
+}
+.container2{
+    display: flex;
+    justify-content:space-between;
+}
+.container3{
+    display: flex;
+    justify-content:space-between;
+}
+.container4{
+    display: flex;
+    justify-content:space-between;
+}
+.container5{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 60px;
+}
+.container6{
+    display: flex;
+    justify-content: space-around;
+}
+.container7{
+    display: flex;
+    justify-content: space-around;
+}
+.container8{
+    display: flex;
+    justify-content: space-around;
+}
+.container9{
+    display: flex;
+    justify-content: space-around;
+}
+.children1{
+    text-align: center;
+}
+.container10{
+    background-color:#0F0F0F; 
+    padding-top: 40px;  
+    padding-bottom: 0px;
+}
+
+.container11{ 
+    display: flex;
+    justify-content: space-between;
+}
+.children1{
+    margin-right: 70px;
+}
+.color1{
+    color: #ff0000;
+    padding-top: 50px;
+    padding-right: 300px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    letter-spacing: 8px;
+    font-size: medium;
+}
+.color4{
+    padding-right:300px;
+}
+.color5{
+    /* padding-top: 150px;
+    padding-right:10; */
+}
+.container12{
+    background-color: #000000;
+    padding-top: 40px;
+}
+.text1{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.container13{
+    row-gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+.div{
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 32px;
+    width: 350px;
+    height: 190px;
+    padding: 25px 15px;
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: inline-block;
+    
+}
+.text2{
+    color: #000000;
+    font-weight: 600;
+    margin-right: 8px;
+    font-size:15px
+   
+}
+.container14{
+    color: #ffffff;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Butler';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+}
+.container15{
+    display: flex;
+    justify-content: space-around;
+    /* padding-right: 10px; */
+}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 40px 0;
+    margin-top: 60px;
+
+}
+
+.footer-wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.footer-section {
+    
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.logo {
+    max-width: 180px;
+    margin-bottom: 15px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0%;
+    color:rgba(255, 255, 255, 0.7) ;
+    
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    color:rgba(255, 255, 255, 0.7) ;
+
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+    color:rgba(255, 255, 255, 0.7) ;
+    
+}
+
+.footer-section ul li a:hover {
+    color: red;
+    
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    /* margin-right: 0px; */
+    color:rgba(255, 255, 255, 0.7) ;
+    
+}
+
+.links a:hover {
+    color: red;
+}
+
+.social-icons a {
+    display: inline-block;
+    background: red;
+    color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    /* text-align: center; */
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.app-buttons img {
+    width: 140px;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
+
+
+
+
