@@ -13,6 +13,7 @@ body {
     font-family: Arial, sans-serif;
 }
 .navbar {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,7 +28,6 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
-    color: #ffffff;
 }
 .nav-links li {
     display: inline;
@@ -37,7 +37,6 @@ body {
     color: white;
     text-decoration: none;
     font-size: 16px;
-    
 }
 .buttons a{
     color: #FFFFFF;
@@ -48,12 +47,10 @@ body {
 }
 .franchise {
     background: transparent;
-    border: solid white;
+    border: 1px solid white;
     color: white;
-    padding: 4px 15px;
+    padding: 8px 15px;
     cursor: pointer;
-    height: 50px;
-    font-size: smaller;
 }
 .order {
     background: red;
@@ -106,12 +103,134 @@ body {
             color: white;
     
         }
+
+
+
+
+        
+.footer {
+    background-color: #0F0F0F;
+    color: white;
+    padding: 40px 0;
+    margin-top: 60px;
+
+}
+
+.footer-wrapper {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+.footer-section {
+    
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+.logo {
+    max-width: 180px;
+    margin-bottom: 15px;
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0%;
+    color:rgba(255, 255, 255, 0.7) ;
+    
+}
+
+.footer-section ul li {
+    margin: 5px 0;
+    color:rgba(255, 255, 255, 0.7) ;
+
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 0.3s;
+    color:rgba(255, 255, 255, 0.7) ;
+    
+}
+
+.footer-section ul li a:hover {
+    color: red;
+    
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    /* margin-right: 0px; */
+    color:rgba(255, 255, 255, 0.7) ;
+    
+}
+
+.links a:hover {
+    color: red;
+}
+
+.social-icons a {
+    display: inline-block;
+    background: red;
+    color: white;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    /* text-align: center; */
+    border-radius: 50%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.app-buttons img {
+    width: 140px;
+    margin-top: 10px;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-section {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+}
+
     </style>
 </head>
 <body>
     
     <link rel="stylesheet" href="style.css">
     <header>
+       
         <nav class="navbar">
             <div class="logo">
                 <img src="https://images-beta.tossdown.com/site/65b73fb7-2706-4440-87b9-9555fcd0ba80.webp"
@@ -119,49 +238,50 @@ body {
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Publications</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="Publication.html">Publications</a></li>
             </ul>
             <div class="buttons">
                 <button class="franchise"><a href="franchise.html">Get a Franchise</a></button>
                 <button class="order">Order Online →</button>
             </div>
         </nav>
+    </header>
 </header>
 <section class="form-section">
     <h2 style="color: rgb(255, 255, 255); text-align: center;">Get a Franchise</h2>
     <form>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">Name</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="your name">
         </div>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">Email</label>
-            <input type="email" placeholder="">
+            <input type="email" placeholder="your email">
         </div>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">Phone Number</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="your phone number">
         </div>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">Mobile Number</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="your mobile number">
         </div>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">City</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="your city">
         </div>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">Province</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="province">
         </div>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">Country</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="your country">
         </div>
         <div class="form-group">
             <label style="color: rgba(255, 255, 255, 0.7);">Brands</label>
-            <input type="text" placeholder="">
+            <input type="text" placeholder="brands">
         </div>
         <button type="submit">SUBMIT</button>
     </form>
@@ -181,10 +301,10 @@ body {
             <div class="footer-section" style="width: 150px;">
                 <h3>Site Links</h3>
                 <ul    >
-                    <li style="margin-bottom: 20px;"><a href="#">Home</a></li>
-                    <li style="margin-bottom: 20px;"><a href="#">About Us</a></li>
-                    <li style="margin-bottom: 20px;"><a href="#">Publications</a></li>
-                    <li style="margin-bottom: 20px;"><a href="#">Get a Franchise</a></li>
+                    <li style="margin-bottom: 20px;"><a href="index.html">Home</a></li>
+                    <li style="margin-bottom: 20px;"><a href="about.html">About Us</a></li>
+                    <li style="margin-bottom: 20px;"><a href="publication.html">Publications</a></li>
+                    <li style="margin-bottom: 20px;"><a href="franchise.html">Get a Franchise</a></li>
                     <li style="margin-bottom: 20px;"><a href="#">Feedback</a></li>
                 </ul>
             </div>
@@ -210,10 +330,9 @@ body {
             <div class="footer-section">
                 <h3>Follow Us</h3>
                 <div class="social-icons">
-                    aria-hidden="true"
-                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"  aria-hidden="true"></i></a>
-                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="Facebook" style="padding-left:9px "><i class="fa-brands fa-facebook"></i></i></a>
+                    <a href="#" aria-label="Instagram" style="padding-left:9px "><i class="fa fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter" style="padding-left:9px "><i class="fa fa-twitter"></i></a>
                 </div>
                 <div class="app-buttons">
                     <a href="#"><img src="app store.webp" alt="App Store"></a>
@@ -221,6 +340,12 @@ body {
                 </div>
             </div>
         </div>
+        <div class="lastfooter">
+            <span>© 2025 Snp Main 
+            </span>
+            <span>Powered by tossdown.com</span>
+         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/a9b6f95a5b.js" crossorigin="anonymous"></script>
 </body>
 </html>
